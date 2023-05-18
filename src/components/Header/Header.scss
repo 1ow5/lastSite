@@ -1,0 +1,54 @@
+.Header {
+    width: 100%;
+    p {
+        font-size: 24px;
+    }
+    .link {
+        text-decoration: none;
+        color: inherit;
+    }
+    .container {
+        height: 123px;
+        display: flex;
+        align-items: center;
+        box-shadow: 1px 8px 10px -7px rgba(0, 0, 0, 0.2);
+        .logo {
+            width: 40%;
+            display: flex;
+            justify-content: center;
+        }
+        .info {
+            width: 60%;
+            display: flex;
+            align-items: center;
+            justify-content:space-evenly;
+            padding-left: 4.5%;
+            .icons {
+                display: flex;
+                gap: 20px;    
+                .icon {
+                    width: 50px;
+                    height: 50px;
+                    display: flex;
+                }
+            }
+        }
+    }
+    .links {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 86px;
+        margin: 0;
+        li {
+            list-style: none;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        :hover {
+            color: #2d64a1;
+            transform: scale(1.02);
+        }
+    }
+}
